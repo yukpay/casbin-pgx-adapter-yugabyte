@@ -1,4 +1,4 @@
-module github.com/pckhoi/casbin-pgx-adapter/v3
+module github.com/yukpay/casbin-pgx-adapter-yugabyte
 
 go 1.18
 

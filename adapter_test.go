@@ -8,9 +8,9 @@ import (
 
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/util"
-	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/yugabyte/pgx/v5"
 )
 
 func dropDB(t *testing.T, dbname string) {

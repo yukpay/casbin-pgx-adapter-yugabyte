@@ -9,11 +9,11 @@ import (
 
 	"github.com/casbin/casbin/v2/model"
 	"github.com/casbin/casbin/v2/persist"
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/mmcloughlin/meow"
+	"github.com/yugabyte/pgx/v5"
+	"github.com/yugabyte/pgx/v5/pgconn"
+	"github.com/yugabyte/pgx/v5/pgtype"
+	"github.com/yugabyte/pgx/v5/pgxpool"
 )
 
 const (
